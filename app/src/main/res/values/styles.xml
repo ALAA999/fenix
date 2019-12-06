@@ -86,10 +86,14 @@
 
     <style name="DialogButtonStyleLight" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
         <item name="android:textColor">?accentBright</item>
+        <item name="android:fontFamily">@font/metropolis_medium</item>
+        <item name="fontFamily">@font/metropolis_medium</item>
     </style>
 
     <style name="DialogButtonStyleDark" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
         <item name="android:textColor">?accentHighContrast</item>
+        <item name="android:fontFamily">@font/metropolis_medium</item>
+        <item name="fontFamily">@font/metropolis_medium</item>
     </style>
 
     <style name="DialogStyleNormal" parent="DialogStyleLight"/>
@@ -173,6 +177,8 @@
         <item name="backgroundTint">@color/grey_button_color</item>
         <item name="android:textColor">@color/button_text_color</item>
         <item name="rippleColor">?secondaryText</item>
+        <item name="android:fontFamily">@font/metropolis_medium</item>
+        <item name="fontFamily">@font/metropolis_medium</item>
     </style>
 
     <style name="ThemeIndependentMaterialGreyButtonDestructive" parent="ThemeIndependentMaterialGreyButton">
@@ -206,17 +212,23 @@
         <item name="android:paddingStart">24dp</item>
         <item name="android:paddingEnd">24dp</item>
         <item name="android:elevation">0dp</item>
+        <item name="android:fontFamily">@font/metropolis_medium</item>
+        <item name="fontFamily">@font/metropolis_medium</item>
     </style>
 
     <style name="SitePermissionCancelButton" parent="SitePermissionButton">
         <item name="android:textColor">?accent</item>
         <item name="android:backgroundTint">?foundation</item>
+        <item name="android:fontFamily">@font/metropolis_medium</item>
+        <item name="fontFamily">@font/metropolis_medium</item>
     </style>
 
     <style name="SitePermissionPrimaryButton" parent="SitePermissionButton">
         <item name="android:background">@drawable/dialog_button_background</item>
         <item name="android:textColor">?contrastText</item>
         <item name="android:backgroundTint">?accent</item>
+        <item name="android:fontFamily">@font/metropolis_medium</item>
+        <item name="fontFamily">@font/metropolis_medium</item>
     </style>
 
     <style name="DialogStyleBase" parent="NormalTheme">
@@ -240,20 +252,23 @@
     <style name="HeaderTextStyle" parent="TextAppearance.MaterialComponents.Subtitle1">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">?primaryText</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:letterSpacing">0.03</item>
+        <item name="android:fontFamily">@font/metropolis_bold</item>
+        <item name="fontFamily">@font/metropolis_bold</item>
     </style>
 
     <style name="Header16TextStyle" parent="TextAppearance.MaterialComponents.Body1">
         <item name="android:textColor">?primaryText</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/metropolis_semibold</item>
+        <item name="fontFamily">@font/metropolis_semibold</item>
     </style>
 
     <style name="Header14TextStyle" parent="TextAppearance.MaterialComponents.Body2">
         <item name="android:textColor">?primaryText</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/metropolis_semibold</item>
+        <item name="fontFamily">@font/metropolis_semibold</item>
     </style>
 
     <style name="Header12TextStyle" parent="TextAppearance.MaterialComponents.Body2">
