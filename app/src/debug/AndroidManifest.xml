@@ -16,9 +16,7 @@
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"
             tools:ignore="ProtectedPermissions" />
 
-    <application
-            tools:replace="android:name"
-            android:name="org.mozilla.fenix.DebugFenixApplication">
+    <application>
 
         <service android:name=".customtabs.CustomTabsService">
             <!-- Trusted Web Activities are currently only supported in nightly. -->
