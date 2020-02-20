@@ -7,7 +7,6 @@ object Versions {
     const val coroutines = "1.3.3"
     const val android_gradle_plugin = "3.5.0"
     const val sentry = "1.7.10"
-    const val leakcanary = "2.2"
     const val leanplum = "5.2.3"
     const val osslicenses_plugin = "0.9.5"
     const val osslicenses_library = "17.0.0"
@@ -32,7 +31,7 @@ object Versions {
     const val androidx_work = "2.2.0"
     const val google_material = "1.1.0"
 
-    const val mozilla_android_components = "34.0.0-SNAPSHOT"
+    const val mozilla_android_components = "33.0.0"
     // Note that android-components also depends on application-services,
     // and in fact is our main source of appservices-related functionality.
     // The version number below tracks the application-services version
@@ -157,7 +156,6 @@ object Deps {
     const val mozilla_support_locale = "org.mozilla.components:support-locale:${Versions.mozilla_android_components}"
 
     const val sentry = "io.sentry:sentry-android:${Versions.sentry}"
-    const val leakcanary = "com.squareup.leakcanary:leakcanary-android:${Versions.leakcanary}"
 
     const val leanplum_core = "com.leanplum:leanplum-core:${Versions.leanplum}"
     const val leanplum_fcm = "com.leanplum:leanplum-fcm:${Versions.leanplum}"

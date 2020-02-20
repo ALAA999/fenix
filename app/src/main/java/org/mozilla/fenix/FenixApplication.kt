@@ -120,7 +120,6 @@ open class FenixApplication : LocaleAwareApplication() {
             }
         }
 
-        setupLeakCanary()
         if (settings().isTelemetryEnabled) {
             components.analytics.metrics.start(MetricServiceType.Data)
         }
@@ -154,14 +153,6 @@ open class FenixApplication : LocaleAwareApplication() {
             components.core.bookmarksStorage.runMaintenance()
         }
         settings().lastPlacesStorageMaintenance = System.currentTimeMillis()
-    }
-
-    protected open fun setupLeakCanary() {
-        // no-op, LeakCanary is disabled by default
-    }
-
-    open fun updateLeakCanaryState(isEnabled: Boolean) {
-        // no-op, LeakCanary is disabled by default
     }
 
     private fun setupPush() {

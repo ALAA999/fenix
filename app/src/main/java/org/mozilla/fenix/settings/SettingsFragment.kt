@@ -273,9 +273,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
         val preferenceRemoteDebugging = findPreference<Preference>(debuggingKey)
 
         if (!Config.channel.isReleased) {
-            preferenceLeakCanary?.setOnPreferenceChangeListener { _, newValue ->
-                val isEnabled = newValue == true
-                context?.application?.updateLeakCanaryState(isEnabled)
+            preferenceLeakCanary?.setOnPreferenceChangeListener { _, _ ->
                 true
             }
         }
